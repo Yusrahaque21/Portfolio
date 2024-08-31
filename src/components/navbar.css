@@ -1,0 +1,49 @@
+.navbar{
+    padding: 3rem;
+    width:  100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+    background-color: #1e5f74aa;
+
+}
+
+.navbar h1{
+    color: #f0a500;
+
+}
+.desktopmenu {
+    display: flex;
+    gap: 30px; /* Space between the menu items */
+    margin-left: 600px;
+}
+.desktopmenulist {
+    color: #ffffff; /* White color for the menu links */
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    /* transition: color 0.3s ease; */
+
+}
+.desktopmenulist:hover {
+    color:#ffb84d;
+    border-bottom: #ffb84d solid;
+}
+
+.button{
+    background-color: #f0a500;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #ffb84d; /* Lighter shade on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
